@@ -17,7 +17,10 @@ body{
 /* Whole Body */
 .main{
     width:75%;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
+    padding: 30px;
+    background-color:rgba(187, 149, 117, 0.15);
+    height: 95%;
 }
 
 
@@ -126,4 +129,40 @@ body{
     border: 20px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(251, 247, 247, 0.89);
+}
+
+/* Products */
+
+.box-50 {
+    width: 45%;
+    height: 400px;
+    background-size: cover;
+    font-size: 45px;
+    text-align: center;
+    line-height: 400px;
+    float: left;
+    margin-top: 150px;
+    box-shadow: 0 10px 8px rgba(255, 255, 255, 0.5)
+
+    
+}
+
+.box-mid{
+    width: 10%;
+    background-color: transparent;
+    height: 400px;
+    float: left;
+}
+
+.Bigbread {
+    background-image: url(Bigbread.jpg);
+}
+.Smallbread {
+    background-image: url(Smallbread.jpg);
+}
+
+/* 000WEB AD Blocked */
+
+img[alt="www.000webhost.com"]{
+    display: none;
 }
